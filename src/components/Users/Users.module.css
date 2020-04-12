@@ -1,0 +1,58 @@
+.navWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.directionNav {
+    display: flex;
+    margin-right: 20px;
+    color: #55677d;
+}
+
+.directionHide {
+    visibility: hidden;
+}
+
+.pageNumber {
+    position: relative;
+    padding: 3px 14px;
+    cursor: pointer;
+    color: #4A76A8;
+    background: #fff;
+    border-top: 1px solid #4A76A8;
+    border-bottom: 1px solid #4A76A8;
+    user-select: none;
+    border-right: 1px solid #4A76A8;
+}
+
+.pageNumber:first-child {
+    border-radius: 14px 0 0 14px;
+    border-left: 1px solid #4A76A8;
+}
+
+.pageNumber:last-child {
+    border-radius: 0 14px 14px 0;
+    border-right: 1px solid #4A76A8;
+}
+
+.pageNumber:hover {
+    color: #fff;
+    background: #4A76A8;
+    transition: .14s linear;
+}
+
+.selected {
+    color: #fff;
+    background: #4A76A8;
+}
+
+.usersWrapper {
+    display: flex;
+    margin: 0 20px;
+    flex-wrap: wrap;
+}
+
+.user {
+    width: 50%;
+}

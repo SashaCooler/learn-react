@@ -1,0 +1,27 @@
+.avatar {
+    height: 100px;
+}
+
+.user {
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.userName {
+    width: 220px;
+}
+
+.followButton {
+    color: #55677d;
+    background: #e5ebf1;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    padding: 8px 0;
+    margin: 5px 0 20px 0;
+}
+
+.unfollowButton {
+    background: #a7c5f1;
+}

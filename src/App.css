@@ -1,0 +1,22 @@
+button,
+button:active,
+button:focus {
+  outline: none;
+}
+
+.app-container {
+  width: 1200px;
+  display: grid;
+  grid-template-areas:
+  "n c b";
+  grid-template-columns: 200px 700px 100px;
+  margin: 30px auto;
+}
+
+
+.app-wrapper-content {
+  grid-area: c;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, .115);
+}

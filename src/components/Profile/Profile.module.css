@@ -1,0 +1,12 @@
+.Profile {
+  padding: 10px;
+}
+
+.content img {
+  width: 100%;
+}
+
+.img__wrapper {
+  height: 200px;
+  overflow: hidden;
+}
